@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Restaurant</title>
+    <link rel="shortcut icon" href="./src/img/rest-logo.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+
+<body>
+
+    <nav class="nav">
+        <h1 class="heading">Nisha's Restaurant</h1>
+        
+        <section class="nav-items">
+            <a href="#home" class="nav-menu">Home</a>
+            <a href="#about" class="nav-menu">About</a>
+            <a href="#gallery" class="nav-menu">Gallery</a>
+            <a href="#contact" class="nav-menu">Contact Me</a>
+        </section>
+    </nav>
+
+    <section id="home" class="page">
+
+        <img src="./src/img/Nisha2_cut.png" alt="Nisha's image" class="my-img">
+
+        <section class="hero-text-area">
+            <h1 class="hero-text">Welcome To My Restaurant</h1>
+            <h1 class="hero-text">Nisha's <span style="color:crimson">Kitchen</span></h1>
+        </section>
+
+    </section>
+
+    <section id="about" class="page">
+        <img src="./src/img/about-back.jpeg" alt="about-img" class="about-img">
+
+        <section class="about-des">
+            <h1 class="hero-text about-text">About</h1>
+
+            <p class="about-des" style="width: 700px;">
+                Hi there, <br>
+                I am Nisha Singh, Lorem ipsum dolor sit amet. <br>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita enim vel nobis et, adipisci a nesciunt inventore eligendi laboriosam quibusdam facere hic veniam. Quaerat quisquam temporibus modi odit. Ea quia repellendus asperiores pariatur at quod molestiae neque labore nobis! Repellendus et, officiis dolore voluptatem labore accusantium similique illum deleniti neque.
+            </p>
+        </section>
+    </section>
+
+    <section id="gallery" class="page">
+
+        <h1 class="hero-text about-text">Gallery</h1>
+
+        <div class="gal-container">
+
+            <div class="gal-col1">
+                <img src="./src/img/gal1.png" alt="gal1" class="gal-img">
+                <img src="./src/img/gal2.png" alt="gal2" class="gal-img">
+                <img src="./src/img/gal3.png" alt="gal3" class="gal-img">
+            </div>
+
+            <div class="gal-col2">
+                <img src="./src/img/gal4.png" alt="gal4" class="gal-img">
+                <img src="./src/img/gal5.png" alt="gal5" class="gal-img">
+                <img src="./src/img/gal6.png" alt="gal6" class="gal-img">
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="contact" class="page">
+
+        <h1 class="contact-heading">Keep in Touch</h1>
+
+        <!-- contact-container starts -->
+        <section class="contact-container">
+
+            <!-- logo starts -->
+            <img src="./src/img/Nisha1.jpeg" alt="Nisha's logo" class="contact-logo">
+            <!-- logo ends -->
+
+            <!-- form container starts -->
+            <section class="form-container">
+
+                <div class="text">Contact Us</div>
+
+                <!-- form starts  -->
+                <form action="#" class="contact-form">
+
+                    <div class="form-row">
+
+                        <div class="input-data">
+                            <input type="text" id="first-name" required>
+                            <div class="underline"></div>
+                            <label for="first-name">First Name</label>
+                        </div>
+
+                        <div class="input-data">
+                            <input type="text" id="last-name" required>
+                            <div class="underline"></div>
+                            <label for="last-name">Last Name</label>
+                        </div>
+
+                    </div>
+
+                    <div class="form-row">
+
+                        <div class="input-data">
+                            <input type="text" id="email" required>
+                            <div class="underline"></div>
+                            <label for="email">Email Address</label>
+                        </div>
+
+                        <div class="input-data">
+                            <input type="text" id="subject" required>
+                            <div class="underline"></div>
+                            <label for="subject">Subject</label>
+                        </div>
+
+                    </div>
+
+                    <div class="form-row">
+                        <div class="input-data textarea">
+
+                            <textarea rows="10" cols="30" id="message" required></textarea>
+                            <div class="underline"></div>
+                            <label for="message">Write your message</label>
+
+                            <div class="form-row submit-btn">
+                                <div class="input-data">
+                                    <div class="inner"></div>
+                                    <input type="submit" value="submit">
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                </form>
+                <!-- form ends  -->
+            </section>
+            <!-- form container ends -->
+        </section>
+
+    </section>
+
+    <section id="end">
+        <p>Made with ❤️ by Nisha</p>
+    </section>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">&#8613;</button>
+
+    <script src="./src/js/script.js"></script>
+
+</body>
+
+</html>
